@@ -1,5 +1,8 @@
-name: myenv
+name: notebooks
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - libgl1-mesa-glx
+  - matplotlib-base
+  - opencv-python
+  - jupyterlab>=3.1
