@@ -6,3 +6,8 @@ dependencies:
   - matplotlib-base
   - opencv
   - jupyterlab>=3.1
+  - pip:
+    - opencv-python
+    - matplotlib
+  - apt:
+    - libgl1-mesa-glx
