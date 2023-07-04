@@ -4,5 +4,5 @@ channels:
   - defaults
 dependencies:
   - matplotlib-base
-  - opencv-python
+  - opencv
   - jupyterlab>=3.1
